@@ -9,7 +9,8 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                sh 'mvn -v' 
+                sh 'mvn -v'
+                sh 'echo niaiseux' 
             }
         }
     }

@@ -1,4 +1,3 @@
-MASTER
 pipeline {
     agent {
         docker {
